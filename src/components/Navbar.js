@@ -48,3 +48,8 @@ Navbar.propTypes = {
     home: PropTypes.string,
     link:  PropTypes.string,
 }
+
+Navbar.defaultProps = {
+    title: 'NewTitle',
+    home: 'NewHome',
+}

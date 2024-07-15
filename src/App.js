@@ -5,10 +5,10 @@ import Navbar from './components/Navbar';
 let name = "sagar";
 function App() {
   return (
-    <>
+    <na>
       
       <Navbar title = "navTitle" home = "navHome" link = "navLink"></Navbar>
-    </>
+    </na>
   );
 }
 
